@@ -8,6 +8,11 @@ function HomePage() {
       </Head>
       <main>
         <h1>My Blog</h1>
+        <ul>
+          <li>one</li>
+          <li>two</li>
+          <li>three</li>
+        </ul>
       </main>
     </>
   );
