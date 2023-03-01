@@ -9,7 +9,7 @@ export async function getStaticProps() {
   };
 }
 function HomePage({posts}) {
-  console.log("[HomePage] render: ", posts);
+  console.log("[HomePage] render: ");
   return (
     <>
       <Head>
