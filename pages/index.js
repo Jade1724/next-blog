@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 function HomePage() {
   return (
@@ -9,9 +10,11 @@ function HomePage() {
       <main>
         <h1>My Blog</h1>
         <ul>
-          <li>one</li>
-          <li>two</li>
-          <li>three</li>
+          <li>
+            <Link href="/posts/first-post">
+              First Post
+            </Link>
+          </li>
         </ul>
       </main>
     </>
