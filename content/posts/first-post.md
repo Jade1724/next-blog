@@ -1,5 +1,6 @@
-# First Post
-
+___
+title: "First Post"
+___
 This is my first post, written in Markdown.
 
 Here's some __bold text__.
